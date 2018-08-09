@@ -1,0 +1,10 @@
+#%RAML 1.0
+title: Bug report
+version: 1.0
+types:
+  Foo:
+    type: object
+  BarFromFoo:
+    type: Foo
+    properties:
+      foo: string
